@@ -13,6 +13,7 @@ define( 'GTM4WP_OPTION_INCLUDE_USERID',        'include-userid' );
 define( 'GTM4WP_OPTION_INCLUDE_USEREMAIL',     'include-useremail' );
 define( 'GTM4WP_OPTION_INCLUDE_USERREGDATE',   'include-userregdate' );
 define( 'GTM4WP_OPTION_INCLUDE_USERNAME',      'include-username' );
+define( 'GTM4WP_OPTION_INCLUDE_VISITOR_IP',    'include-visitor-ip' );
 define( 'GTM4WP_OPTION_INCLUDE_POSTTYPE',      'include-posttype' );
 define( 'GTM4WP_OPTION_INCLUDE_CATEGORIES',    'include-categories' );
 define( 'GTM4WP_OPTION_INCLUDE_TAGS',          'include-tags' );
@@ -102,10 +103,6 @@ define( 'GTM4WP_OPTION_INTEGRATE_GOOGLEOPTIMIZETIMEOUT', 'integrate-google-optim
 define( 'GTM4WP_OPTION_INTEGRATE_WPECOMMERCE',   'integrate-wp-e-commerce' );
 
 define( 'GTM4WP_OPTION_INTEGRATE_AMPID',     'integrate-amp-id' );
-define( 'GTM4WP_OPTION_INTEGRATE_AMPID_INJECTED',     false );
-define( 'GTM4WP_OPTION_INTEGRATE_AMPCODE_AMP',     false );
-define( 'GTM4WP_OPTION_INTEGRATE_AMPCODE_GTM',     false );
-define( 'GTM4WP_OPTION_INTEGRATE_AMPCODE_DATALAYER',     false );
 
 define( 'GTM4WP_PLACEMENT_FOOTER',        0 );
 define( 'GTM4WP_PLACEMENT_BODYOPEN',      1 );
@@ -128,6 +125,7 @@ $gtm4wp_defaultoptions = array(
 	GTM4WP_OPTION_INCLUDE_USEREMAIL     => false,
 	GTM4WP_OPTION_INCLUDE_USERREGDATE   => false,
 	GTM4WP_OPTION_INCLUDE_USERNAME      => false,
+	GTM4WP_OPTION_INCLUDE_VISITOR_IP    => false,
 	GTM4WP_OPTION_INCLUDE_POSTTYPE      => true,
 	GTM4WP_OPTION_INCLUDE_CATEGORIES    => true,
 	GTM4WP_OPTION_INCLUDE_TAGS          => true,
